@@ -1,0 +1,15 @@
+﻿<Window x:Class="LoadCCList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Load CC List" Height="300" Width="376" Name="LoadCCList">
+    <Grid>
+        <DataGrid AutoGenerateColumns="false" Name="dgCCList" ItemsSource="{Binding ElementName=LoadCCList, Path=cLineInfo}" CanUserDeleteRows="False" CanUserReorderColumns="False" GridLinesVisibility="Horizontal" Margin="0,0,0,33" AlternatingRowBackground="#FFFFE776">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Title" Width="*" Binding="{Binding Title}" IsReadOnly="True" />
+                <DataGridTextColumn Header="Date" Width="Auto" Binding="{Binding CCDate}" IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Load" Height="23" HorizontalAlignment="Right" Margin="0,0,85,4" Name="cmdLoad" VerticalAlignment="Bottom" Width="75" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Right" Margin="0,0,4,4" Name="cmdCancel" VerticalAlignment="Bottom" Width="75" />
+    </Grid>
+</Window>
