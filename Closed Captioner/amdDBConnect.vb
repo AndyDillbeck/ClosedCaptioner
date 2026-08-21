@@ -4,11 +4,11 @@ Imports System.Xml.Serialization
 Imports System.Data.SqlClient
 
 Module amdDBConnect
+    Private sConnectionString As String = "Data Source=jlw-awsrds-sqldb-02.creqsvmtsjmc.us-east-2.rds.amazonaws.com,1433;User ID=webuser;Password=i5gMysxc8XXEYViZO&yOCBX;Connect Timeout=30;Encrypt=True;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False; Initial Catalog=JL"
     Public Function MyCn() As ADODB.Connection
         MyCn = New ADODB.Connection
         MyCn.Provider = "SQLOLEDB.1"
-        'MyCn.ConnectionString = "Data Source=PE1800\PE1800; user id=imagoodluser; password=imagoodluser; Initial Catalog=JL"
-        MyCn.ConnectionString = "Data Source=172.24.36.5,1433;user id=webuser; password=Web21pa$$; Initial Catalog=JL"
+        MyCn.ConnectionString = sConnectionString
         MyCn.CommandTimeout = 60
         MyCn.Open()
     End Function

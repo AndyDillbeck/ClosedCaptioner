@@ -13,7 +13,7 @@
     </TargetFrameworkProfile>
     <MyType>Custom</MyType>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>E:\jlwapps\Closed Captioner\</PublishUrl>
+    <PublishUrl>V:\Closed Captioner\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,12 +23,12 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://jlwapps.jlwarranty.com/Closed Captioner/</InstallUrl>
-    <UpdateUrl>https://jlwapps.jlwarranty.com/Closed Captioner/</UpdateUrl>
+    <InstallUrl>https://jlwapps-portal.jlwarranty.com/Closed Captioner/</InstallUrl>
+    <UpdateUrl>https://jlwapps-portal.jlwarranty.com/Closed Captioner/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>14</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>1.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
